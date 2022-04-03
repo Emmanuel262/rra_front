@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <title>RRA Auction</title>
+  </head>
+  <body>
+    <section class="dashboard">
+      <div class="dashboard__container">
+        <div class="dashboard__right">
+          <div class="dashboard__contents">
+            <div class="contents__container user active">
+              <div class="basic_info">
+                <p class="req_param">user-first-name</p>
+                <p class="req_param">user-last-name</p>
+                <p class="req_param">user-phone-number</p>
+                <p class="req_param">user-id-number</p>
+                <p class="req_param">user-role</p>
+                <button class="btn btn_edit">Click to edit</button>
+              </div>
+            </div>
+            <div class="contents__container create">
+              <div class="dashboard--container profile-edit">
+                <h1 class="primary--header">Create a bid to meet your needs</h1>
+                <div class="image-edit__container">
+                  <input type="file" name="inpFile" id="inptFile" />
+                </div>
+                <form class="create__form" autocomplete="off">
+                  <input type="hidden" autocomplete="false" />
+                  <div class="form-control">
+                    <label for="full_name" class="name_label">Your names</label>
+                    <input
+                      type="text"
+                      class="full_name"
+                      name="full_name"
+                      placeholder="Enter your names"
+                    />
+                  </div>
+                  <div class="form-control">
+                    <label for="email" class="name_label">Your email</label>
+                    <input
+                      type="text"
+                      class="email"
+                      name="email"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div class="form-control">
+                    <label for="street" class="name_label">Street number</label>
+                    <input
+                      type="text"
+                      class="street"
+                      name="street"
+                      placeholder="Street"
+                    />
+                  </div>
+                  <div class="form-control">
+                    <label for="city" class="name_label">Your city</label>
+                    <input
+                      type="text"
+                      class="article__title"
+                      name="city"
+                      placeholder="city"
+                    />
+                  </div>
+                  <div class="form-control">
+                    <label for="phone-number" class="name_label"
+                      >Phone number</label
+                    >
+                    <input
+                      type="text"
+                      class="bid-phoneNUmber"
+                      name="phone-number"
+                      placeholder="Phone number"
+                    />
+                  </div>
+                  <div class="form-control">
+                    <label for="id_number" class="name_label">ID number</label>
+                    <input
+                      type="text"
+                      class="bid_idnumber"
+                      name="id-number"
+                      placeholder="ID number"
+                    />
+                  </div>
+                  <div class="form-control text_area">
+                    <label for="bid__description" class="name_label"
+                      >Give description that will be used to explain the bid and
+                      give user the insight of what to do. you have to remember
+                      that firt line will be used as summary. other lines or
+                      paragraph will be used as description. Remember to attach
+                      images using below button</label
+                    >
+                    <textarea
+                      id="bid__description"
+                      class="bid__description"
+                      name="bid__description"
+                      placeholder="Please enter your input text"
+                    >
+                    </textarea>
+                  </div>
+                  <button type="submit" class="btn" style="width: 100px">
+                    Create
+                  </button>
+                </form>
+              </div>
+            </div>
+            <div class="contents__container bid_list">
+              <div class="bid_lists">
+                <div class="auctions__container--cards">
+                  <h6 class="tertiary__text">Your auctions</h6>
+                  <div class="cards">
+                    <div class="card">
+                      <img
+                        src="./public/img/watch.jpg"
+                        alt="Watch_1"
+                        class="card__image main"
+                      />
+                      <p class="quadriple-paragraph">
+                        best house ever to bid on.
+                      </p>
+                      <p class="quatinary-paragraph time">
+                        Starts <strong>Mar 27, 2022 5:00 PM GMT +2</strong>
+                      </p>
+                      <p class="quatinary-paragraph place">
+                        Kicukiro - Kigali - Rwanda
+                      </p>
+                      <p class="left_time">15 Hrs Left</p>
+                      <div class="available_buttons">
+                        <a href="./details.html" class="btn__details btn"
+                          >Details</a
+                        >
+                        <button class="btn btn__edit">Edit</button>
+                        <button class="btn btn__delete">Delete</button>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img
+                        src="./public/img/watch.jpg"
+                        alt="Watch_1"
+                        class="card__image main"
+                      />
+                      <p class="quadriple-paragraph">
+                        best house ever to bid on.
+                      </p>
+                      <p class="quatinary-paragraph time">
+                        Starts <strong>Mar 27, 2022 5:00 PM GMT +2</strong>
+                      </p>
+                      <p class="quatinary-paragraph place">
+                        Kicukiro - Kigali - Rwanda
+                      </p>
+                      <p class="left_time">15 Hrs Left</p>
+                      <div class="available_buttons">
+                        <a href="./details.html" class="btn__details btn"
+                          >Details</a
+                        >
+                        <button class="btn btn__edit">Edit</button>
+                        <button class="btn btn__delete">Delete</button>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img
+                        src="./public/img/watch.jpg"
+                        alt="Watch_1"
+                        class="card__image main"
+                      />
+                      <p class="quadriple-paragraph">
+                        best house ever to bid on.
+                      </p>
+                      <p class="quatinary-paragraph time">
+                        Starts <strong>Mar 27, 2022 5:00 PM GMT +2</strong>
+                      </p>
+                      <p class="quatinary-paragraph place">
+                        Kicukiro - Kigali - Rwanda
+                      </p>
+                      <p class="left_time">15 Hrs Left</p>
+                      <div class="available_buttons">
+                        <a href="./details.html" class="btn__details btn"
+                          >Details</a
+                        >
+                        <button class="btn btn__edit">Edit</button>
+                        <button class="btn btn__delete">Delete</button>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="contents__container bidders">
+              <table class="bidders_table table">
+                <thead>
+                  <tr>
+                    <td>No</td>
+                    <td>Full names</td>
+                    <td>email address</td>
+                    <td>contacts</td>
+                    <td>bids</td>
+                    <td>id_number</td>
+                    <td>price</td>
+                    <td>paid</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Uwimana Francis</td>
+                    <td>francis@gmail.com</td>
+                    <td>+250798xxxxx</td>
+                    <td>bids-house #2</td>
+                    <td>1119273656783434-1</td>
+                    <td>30980320398</td>
+                    <td>Uncompleted</td>
+                  </tr>
+                  <tr>
+                    <td>2</td>
+                    <td>Uwimana Francis</td>
+                    <td>francis@gmail.com</td>
+                    <td>+250798xxxxx</td>
+                    <td>bids-house #2</td>
+                    <td>1119273656783434-2</td>
+                    <td>203709000</td>
+                    <td>Completed</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Uwimana Francis</td>
+                    <td>francis@gmail.com</td>
+                    <td>+250798xxxxx</td>
+                    <td>bids-house #2</td>
+                    <td>1119273656783434-3</td>
+                    <td>30000000</td>
+                    <td>Completed</td>
+                  </tr>
+                  <tr>
+                    <td>3</td>
+                    <td>Uwimana Francis</td>
+                    <td>francis@gmail.com</td>
+                    <td>+250798xxxxx</td>
+                    <td>bids-house #2</td>
+                    <td>1119273656783434-3</td>
+                    <td>30000000</td>
+                    <td>Completed</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <div class="dashboard__intro--info">
+          <div class="first_quadrant">
+            <a href="./index.html" class="back_home">Home</a>
+            <h6 class="tertiary__text">Available activities</h6>
+          </div>
+          <div class="req_info--left">
+            <p class="req_info">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
+              doloribus magnam accusantium dolore? Temporibus quia inventore
+              odio? Ipsam temporibus debitis voluptatibus placeat expedita
+              doloremque, rem natus, obcaecati quo tenetur nisi!
+            </p>
+          </div>
+          <div class="req_info--right">
+            <div class="user-img">
+              <i class="fa fa-user fa-4x" aria-hidden="true"></i>
+            </div>
+            <p class="user_name">user-name/email</p>
+          </div>
+        </div>
+        <div class="dashboard__left">
+          <div class="req_list">
+            <ul class="req_lists">
+              <li class="req_lists--item user active">
+                <a href="#" class="req_lists--link">User Account</a>
+              </li>
+              <li class="req_lists--item create">
+                <a href="#" class="req_lists--link">Create a Bid</a>
+              </li>
+              <li class="req_lists--item bid_list">
+                <a href="#" class="req_lists--link">Bid List</a>
+              </li>
+              <li class="req_lists--item bidders">
+                <a href="#" class="req_lists--link">bidders and bid</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.tiny.cloud/1/uxw88gysnnwhadan1yuu73x45eg9mypgqxfejq6e81gp32l3/tinymce/5/tinymce.min.js"
+      referrerpolicy="origin"
+    ></script>
+    <!-- <script src="./public/js/main.js"></script> -->
+    <script src="./public/js/tinyMCS.js"></script>
+    <script src="./public//js/dashboard.js"></script>
+  </body>
+</html>

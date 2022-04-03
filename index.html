@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Halant:wght@300;400;500;600;700&family=Hind+Siliguri:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./public/css/main.css" />
+    <title>RRA Auction</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="header__nav">
+        <a href="/index.html" class="header__logo">
+          <img
+            src="./public/img/pngwing.com.png"
+            alt="Home Rogo"
+            class="header__logo--img"
+          />
+          <h2 class="primary__text">RRA_Auction</h2>
+        </a>
+        <div class="header__search">
+          <input
+            type="search"
+            name="searchItem"
+            id="search_item"
+            class="search_item"
+            placeholder="Search items and auction houses"
+          />
+          <div class="search_img">
+            <img
+              src="./public/img/search.png"
+              alt="Search Item"
+              class="search_icon"
+            />
+          </div>
+        </div>
+        <div class="header__navigation">
+          <ul class="nav__list">
+            <li class="nav__list--item">
+              <a href="/register.html" class="nav__list--item-link btn"
+                >Register</a
+              >
+            </li>
+            <li class="nav__list--item">
+              <a href="/login.html" class="nav__list--item-link btn btn_outline"
+                >Login</a
+              >
+            </li>
+            <li class="nav__list--item">
+              <a
+                href="/dashboard.html"
+                class="nav__list--item-link btn btn_outline"
+                >Dashboard</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="header__contents">
+        <div class="contents__top">
+          <div class="contents__top--header">
+            <ul class="contents__list">
+              <li class="contents__list--item">
+                <a href="#" class="contents__list--link">Categories</a>
+              </li>
+              <li class="contents__list--item">
+                <a href="#" class="contents__list--link">Houses</a>
+              </li>
+              <li class="contents__list--item">
+                <a href="#" class="contents__list--link">Computers</a>
+              </li>
+              <li class="contents__list--item">
+                <a href="#" class="contents__list--link">Fashions</a>
+              </li>
+              <li class="contents__list--item">
+                <a href="#" class="contents__list--link">Furnitues</a>
+              </li>
+              <li class="contents__list--item">
+                <a href="#" class="contents__list--link">Cars</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="contents__container">
+          <div class="req__container">
+            <h5 class="tertiary__text">Let's go treature-hunting</h5>
+            <p class="tertiary-paragraph">
+              Join the World's best auctions for on-of-a kind art, antiques &
+              luxury goods
+            </p>
+            <div class="login_start">
+              <input
+                type="search"
+                name="searchItem"
+                id="search_item"
+                class="search_item"
+                placeholder="Enter your email to join"
+              />
+              <h6 class="quadriple_text">Join</h6>
+            </div>
+          </div>
+        </div>
+        <div class="contents__encouragement">
+          <div class="auction__list--places">
+            <a href="#" class="trending_auction card">
+              <div class="texts">
+                <h5 class="quadriple__text">Trending Auctions</h5>
+                <p class="quadriple-paragraph">
+                  Click to see popular auction that contains thousands of items
+                  being auctioned daily.
+                </p>
+              </div>
+              <img src="./public/img/trending.png" alt="" />
+            </a>
+            <a href="#" class="trending_auction card">
+              <div class="texts">
+                <h5 class="quadriple__text">Auctions Near you</h5>
+                <p class="quadriple-paragraph">
+                  Click to see popular auction Near in district or select
+                  accordingly to your need
+                </p>
+              </div>
+              <img src="./public/img/near_you.png" alt="" />
+            </a>
+            <a href="#" class="trending_auction card">
+              <div class="texts">
+                <h5 class="quadriple__text">Learn how to bid</h5>
+                <p class="quadriple-paragraph">
+                  Click to see popular auction courses to teach you how to bid.
+                </p>
+              </div>
+              <img src="./public/img/learning.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="auctions">
+      <h3 class="secondary__text">
+        The list of all available octions are present here. traverse them and
+        see what suit you.
+      </h3>
+      <div class="auctions__container">
+        <div class="auctions__container--navigator">
+          <div class="navigator_card">
+            <ul class="navigator__list">
+              <li class="navigator__list--item">
+                <a href="#" class="navigator__list--link">Current Auction</a>
+              </li>
+              <li class="navigator__list--item">
+                <a href="#" class="navigator__list--link">Upcomming Auction</a>
+              </li>
+              <li class="navigator__list--item">
+                <a href="#" class="navigator__list--link">Completed Auction</a>
+              </li>
+              <li class="navigator__list--item">
+                <a href="#" class="navigator__list--link">Popular Auctions</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="auctions_contains--list">
+          <div class="auctions__container--cards">
+            <h6 class="tertiary__text">Upcomming auctions</h6>
+            <div class="cards">
+              <a href="/details.html" class="card">
+                <img
+                  src="./public/img/watch.jpg"
+                  alt="Watch_1"
+                  class="card__image main"
+                />
+                <p class="quadriple-paragraph">best house ever to bid on.</p>
+                <p class="quatinary-paragraph time">
+                  Starts <strong>Mar 27, 2022 5:00 PM GMT +2</strong>
+                </p>
+                <p class="quatinary-paragraph place">
+                  Kicukiro - Kigali - Rwanda
+                </p>
+                <p class="left_time">15 Hrs Left</p>
+              </a>
+              <a href="/details.html" class="card">
+                <img
+                  src="./public/img/watch.jpg"
+                  alt="Watch_1"
+                  class="card__image main"
+                />
+                <p class="quadriple-paragraph">best house ever to bid on.</p>
+                <p class="quatinary-paragraph time">
+                  Starts <strong>Mar 27, 2022 5:00 PM GMT +2</strong>
+                </p>
+                <p class="quatinary-paragraph place">
+                  Kicukiro - Kigali - Rwanda
+                </p>
+                <p class="left_time">15 Hrs Left</p>
+              </a>
+              <a href="/details.html" class="card">
+                <img
+                  src="./public/img/watch.jpg"
+                  alt="Watch_1"
+                  class="card__image main"
+                />
+                <p class="quadriple-paragraph">best house ever to bid on.</p>
+                <p class="quatinary-paragraph time">
+                  Starts <strong>Mar 27, 2022 5:00 PM GMT +2</strong>
+                </p>
+                <p class="quatinary-paragraph place">
+                  Kicukiro - Kigali - Rwanda
+                </p>
+                <p class="left_time">15 Hrs Left</p>
+              </a>
+            </div>
+          </div>
+          <div class="auctions__container--cards">
+            <h6 class="tertiary__text">Current auctions</h6>
+            <div class="cards">
+              <div class="card current">
+                <img
+                  src="./public/img/watch.jpg"
+                  alt="Watch_1"
+                  class="card__image main"
+                />
+                <p class="quadriple-paragraph">best house ever to bid on.</p>
+                <p class="quatinary-paragraph time">
+                  Starts <strong>Mar 27, 2022 5:00 PM GMT +2</strong>
+                </p>
+                <p class="quatinary-paragraph place">
+                  Kicukiro - Kigali - Rwanda
+                </p>
+                <p class="status">Live</p>
+                <a href="#" class="bid_now">Bid Now</a>
+              </div>
+              <div class="card current">
+                <img
+                  src="./public/img/watch.jpg"
+                  alt="Watch_1"
+                  class="card__image main"
+                />
+                <p class="quadriple-paragraph">best house ever to bid on.</p>
+                <p class="quatinary-paragraph time">
+                  Starts <strong>Mar 27, 2022 5:00 PM GMT +2</strong>
+                </p>
+                <p class="quatinary-paragraph place">
+                  Kicukiro - Kigali - Rwanda
+                </p>
+                <p class="status">Live</p>
+                <a href="#" class="bid_now">Bid Now</a>
+              </div>
+              <div class="card current">
+                <img
+                  src="./public/img/watch.jpg"
+                  alt="Watch_1"
+                  class="card__image main"
+                />
+                <p class="quadriple-paragraph">best house ever to bid on.</p>
+                <p class="quatinary-paragraph time">
+                  Starts <strong>Mar 27, 2022 5:00 PM GMT +2</strong>
+                </p>
+                <p class="quatinary-paragraph place">
+                  Kicukiro - Kigali - Rwanda
+                </p>
+                <p class="status">Live</p>
+                <a href="#" class="bid_now">Bid Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="./public/js/main.js"></script>
+  </body>
+</html>
